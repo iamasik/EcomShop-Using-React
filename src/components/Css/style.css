@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.ProductBox{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.Container{
+    margin: 0px auto;
+    width: 80%;
+}
+.Error{
+    display: block;
+    text-align: center;
+    position: absolute;
+    color: #ffae00;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Loading{
+    display: block;
+    text-align: center;
+    position: absolute;
+    color: #0077ff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

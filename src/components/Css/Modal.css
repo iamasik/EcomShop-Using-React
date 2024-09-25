@@ -1,0 +1,83 @@
+.outer{
+    background-color: rgb(0, 0, 0,.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.inner{
+    overflow: auto;
+    background-color: #ffffff;
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 15%;
+    border-radius: 10px;
+    padding: 20px;
+    transform: translateX(-50%);
+}
+.inner p{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.item{
+    background-color: #e7e7e7;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.item img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ffae34;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.item .Details p{
+    width: 500px;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 5px;
+
+}
+.item button{
+    border: none;
+    background-color: #ffae34;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0px;
+    cursor: pointer;
+}
+.item .Control{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+.item .Delete p{
+    cursor: pointer;
+    text-align: right;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+}
+.inner p button{
+    background-color: #ff0000;
+    margin-right: 10px;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

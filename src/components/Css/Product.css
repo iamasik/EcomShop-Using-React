@@ -1,0 +1,61 @@
+.ProdCard{
+    box-shadow: 0px 0px 10px 1px rgb(0, 0, 0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 300px;
+    margin: 10px auto;
+}
+.ProdCard .imgBox{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 0px auto;
+}
+.ProdCard img{
+    width: 250px;
+    height: 100%;
+    text-align: center;
+}
+.Category{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4accff;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Rate{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #dbe6ff;
+    display: flex;
+    color: #ff9900;
+    font-weight: bold;
+    justify-content: space-between; 
+    align-items: center;
+}
+.Title{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.Price span{
+    font-weight: bold;
+}
+.Price{
+    padding-bottom: 10px;
+
+}
+.ProdCard button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #0051ff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
